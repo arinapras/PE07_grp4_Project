@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE07_grp4_Project.Server", "PE07_grp4_Project\Server\PE07_grp4_Project.Server.csproj", "{E9CB78FD-7C61-4090-B8C3-07445B54D938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE07_grp4_Project.Server", "PE07_grp4_Project\Server\PE07_grp4_Project.Server.csproj", "{E9CB78FD-7C61-4090-B8C3-07445B54D938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE07_grp4_Project.Client", "PE07_grp4_Project\Client\PE07_grp4_Project.Client.csproj", "{2E232E50-A82E-4EDC-AC06-290974EFB969}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE07_grp4_Project.Client", "PE07_grp4_Project\Client\PE07_grp4_Project.Client.csproj", "{2E232E50-A82E-4EDC-AC06-290974EFB969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE07_grp4_Project.Shared", "PE07_grp4_Project\Shared\PE07_grp4_Project.Shared.csproj", "{223F41D1-A1A6-4A04-9AEE-6953DFFD4EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE07_grp4_Project.Shared", "PE07_grp4_Project\Shared\PE07_grp4_Project.Shared.csproj", "{223F41D1-A1A6-4A04-9AEE-6953DFFD4EAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
