@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using PE07_grp4_Project.Server.Data;
 using PE07_grp4_Project.Server.Models;
 using Microsoft.AspNetCore.Identity;
+using PE07_grp4_Project.Server.IRepository;
+using PE07_grp4_Project.Server.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +23,8 @@ builder.Services.AddIdentityServer()
 
 builder.Services.AddAuthentication()
     .AddIdentityServerJwt();
+
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
